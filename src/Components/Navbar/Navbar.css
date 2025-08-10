@@ -1,0 +1,54 @@
+/* General Navbar Styling */
+.navbar {
+  background: #ffffff !important; /* Clean white background */
+  padding: 0.8rem 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* Soft shadow below */
+  font-family: 'Poppins', sans-serif; /* Modern and readable font */
+  font-weight: 500;
+}
+
+/* Brand and Links */
+.navbar .nav-link {
+  color: #333 !important;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #2c7a7b !important; /* Calm yoga-themed green */
+  transform: translateY(-2px);
+}
+
+/* Active Link */
+.navbar .nav-link.active {
+  color: #2c7a7b !important;
+  font-weight: 600;
+  border-bottom: 2px solid #2c7a7b;
+}
+
+/* Welcome Text */
+.navbar span.nav-link {
+  color: #444;
+  cursor: default;
+}
+
+/* Logout Button Styling */
+.navbar .btn-link {
+  color: #d9534f !important;
+  text-decoration: none;
+}
+
+.navbar .btn-link:hover {
+  color: #c9302c !important;
+}
+
+/* Mobile Toggle Icon */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
